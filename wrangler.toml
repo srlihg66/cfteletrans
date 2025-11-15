@@ -1,9 +1,9 @@
 # Top-level configuration
 name = "cfteletrans"
-main = "./_worker.js"
+main = "./worker.js"
 compatibility_date = "2025-11-15"
 no_bundle = true
-workers_dev = false
+workers_dev = true
 
 [vars]
 BOT_TOKEN_ENV = "8305416581:AAHyL8jbclJHP7JqK3G8mSWpjjxIuIHwP6Q" 
